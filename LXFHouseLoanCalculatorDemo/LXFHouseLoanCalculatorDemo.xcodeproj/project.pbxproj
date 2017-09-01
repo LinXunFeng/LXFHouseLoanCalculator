@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD97AF4D1F59C91100A50B2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF4C1F59C91100A50B2B /* main.m */; };
+		FD97AF501F59C91100A50B2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF4F1F59C91100A50B2B /* AppDelegate.m */; };
+		FD97AF531F59C91100A50B2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF521F59C91100A50B2B /* ViewController.m */; };
+		FD97AF561F59C91100A50B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF541F59C91100A50B2B /* Main.storyboard */; };
+		FD97AF581F59C91100A50B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF571F59C91100A50B2B /* Assets.xcassets */; };
+		FD97AF5B1F59C91100A50B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF591F59C91100A50B2B /* LaunchScreen.storyboard */; };
+		FD97AF661F59C92A00A50B2B /* LXFHouseLoanCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF651F59C92A00A50B2B /* LXFHouseLoanCalculator.m */; };
+		FD97AF741F59C9F300A50B2B /* XLBasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF731F59C9F300A50B2B /* XLBasePageController.m */; };
+		FD97AF7A1F59CA3A00A50B2B /* LXFCalculatorBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF791F59CA3A00A50B2B /* LXFCalculatorBaseViewController.m */; };
+		FD97AF7D1F59CA5600A50B2B /* LXFCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF7C1F59CA5600A50B2B /* LXFCalculatorViewController.m */; };
+		FD97AF801F59CAED00A50B2B /* LXFCalculatorBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF7F1F59CAED00A50B2B /* LXFCalculatorBusinessViewController.m */; };
+		FD97AF831F59CAFC00A50B2B /* LXFCalculatorFundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF821F59CAFC00A50B2B /* LXFCalculatorFundViewController.m */; };
+		FD97AF861F59CB0A00A50B2B /* LXFCalculatorGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF851F59CB0A00A50B2B /* LXFCalculatorGroupViewController.m */; };
+		FD97AF921F59CBDA00A50B2B /* LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF891F59CBDA00A50B2B /* LCActionSheet.m */; };
+		FD97AF931F59CBDA00A50B2B /* LCActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF8B1F59CBDA00A50B2B /* LCActionSheetCell.m */; };
+		FD97AF941F59CBDA00A50B2B /* LCActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF8D1F59CBDA00A50B2B /* LCActionSheetConfig.m */; };
+		FD97AF951F59CBDA00A50B2B /* LCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF8F1F59CBDA00A50B2B /* LCActionSheetViewController.m */; };
+		FD97AF961F59CBDA00A50B2B /* UIImage+LCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF911F59CBDA00A50B2B /* UIImage+LCActionSheet.m */; };
+		FD97AF9A1F59CCF000A50B2B /* LXFPopResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF981F59CCF000A50B2B /* LXFPopResultCell.m */; };
+		FD97AF9B1F59CCF000A50B2B /* LXFPopResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD97AF991F59CCF000A50B2B /* LXFPopResultCell.xib */; };
+		FD97AF9F1F59CD2600A50B2B /* LXFCalculateResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AF9E1F59CD2600A50B2B /* LXFCalculateResultModel.m */; };
+		FD97AFA21F59CE1600A50B2B /* LXFPopResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFA11F59CE1600A50B2B /* LXFPopResultView.m */; };
+		FD97AFA81F59CF9700A50B2B /* LXFCalculatorCalcBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFA71F59CF9700A50B2B /* LXFCalculatorCalcBtnView.m */; };
+		FD97AFAA1F59CF9F00A50B2B /* LXFCalculatorCalcBtnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD97AFA91F59CF9F00A50B2B /* LXFCalculatorCalcBtnView.xib */; };
+		FD97AFAE1F59D04700A50B2B /* LXFCalcSelectStrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFAC1F59D04700A50B2B /* LXFCalcSelectStrCell.m */; };
+		FD97AFAF1F59D04700A50B2B /* LXFCalcSelectStrCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD97AFAD1F59D04700A50B2B /* LXFCalcSelectStrCell.xib */; };
+		FD97AFB31F59D0C100A50B2B /* LXFCalcInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFB11F59D0C100A50B2B /* LXFCalcInputCell.m */; };
+		FD97AFB41F59D0C100A50B2B /* LXFCalcInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD97AFB21F59D0C100A50B2B /* LXFCalcInputCell.xib */; };
+		FD97AFCF1F59D14700A50B2B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFB71F59D14700A50B2B /* MASCompositeConstraint.m */; };
+		FD97AFD01F59D14700A50B2B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFBA1F59D14700A50B2B /* MASConstraint.m */; };
+		FD97AFD11F59D14700A50B2B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFBC1F59D14700A50B2B /* MASConstraintMaker.m */; };
+		FD97AFD21F59D14700A50B2B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFBE1F59D14700A50B2B /* MASLayoutConstraint.m */; };
+		FD97AFD31F59D14700A50B2B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFC21F59D14700A50B2B /* MASViewAttribute.m */; };
+		FD97AFD41F59D14700A50B2B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFC41F59D14700A50B2B /* MASViewConstraint.m */; };
+		FD97AFD51F59D14700A50B2B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFC61F59D14700A50B2B /* NSArray+MASAdditions.m */; };
+		FD97AFD61F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFC91F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FD97AFD71F59D14700A50B2B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFCB1F59D14700A50B2B /* View+MASAdditions.m */; };
+		FD97AFD81F59D14700A50B2B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFCE1F59D14700A50B2B /* ViewController+MASAdditions.m */; };
+		FD97AFDC1F59D1B300A50B2B /* NSArray+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFDB1F59D1B300A50B2B /* NSArray+LXF.m */; };
+		FD97AFDF1F59D23100A50B2B /* UITableViewCell+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFDE1F59D23100A50B2B /* UITableViewCell+LXF.m */; };
+		FD97AFE21F59D2D800A50B2B /* UIView+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FD97AFE11F59D2D800A50B2B /* UIView+LXF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD97AF481F59C91100A50B2B /* LXFHouseLoanCalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFHouseLoanCalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD97AF4C1F59C91100A50B2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD97AF4E1F59C91100A50B2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD97AF4F1F59C91100A50B2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD97AF511F59C91100A50B2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD97AF521F59C91100A50B2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD97AF551F59C91100A50B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD97AF571F59C91100A50B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD97AF5A1F59C91100A50B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD97AF5C1F59C91100A50B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD97AF641F59C92A00A50B2B /* LXFHouseLoanCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFHouseLoanCalculator.h; sourceTree = "<group>"; };
+		FD97AF651F59C92A00A50B2B /* LXFHouseLoanCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFHouseLoanCalculator.m; sourceTree = "<group>"; };
+		FD97AF721F59C9F300A50B2B /* XLBasePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBasePageController.h; sourceTree = "<group>"; };
+		FD97AF731F59C9F300A50B2B /* XLBasePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBasePageController.m; sourceTree = "<group>"; };
+		FD97AF781F59CA3A00A50B2B /* LXFCalculatorBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculatorBaseViewController.h; sourceTree = "<group>"; };
+		FD97AF791F59CA3A00A50B2B /* LXFCalculatorBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculatorBaseViewController.m; sourceTree = "<group>"; };
+		FD97AF7B1F59CA5600A50B2B /* LXFCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculatorViewController.h; sourceTree = "<group>"; };
+		FD97AF7C1F59CA5600A50B2B /* LXFCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculatorViewController.m; sourceTree = "<group>"; };
+		FD97AF7E1F59CAED00A50B2B /* LXFCalculatorBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculatorBusinessViewController.h; sourceTree = "<group>"; };
+		FD97AF7F1F59CAED00A50B2B /* LXFCalculatorBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculatorBusinessViewController.m; sourceTree = "<group>"; };
+		FD97AF811F59CAFC00A50B2B /* LXFCalculatorFundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculatorFundViewController.h; sourceTree = "<group>"; };
+		FD97AF821F59CAFC00A50B2B /* LXFCalculatorFundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculatorFundViewController.m; sourceTree = "<group>"; };
+		FD97AF841F59CB0A00A50B2B /* LXFCalculatorGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculatorGroupViewController.h; sourceTree = "<group>"; };
+		FD97AF851F59CB0A00A50B2B /* LXFCalculatorGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculatorGroupViewController.m; sourceTree = "<group>"; };
+		FD97AF881F59CBDA00A50B2B /* LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheet.h; sourceTree = "<group>"; };
+		FD97AF891F59CBDA00A50B2B /* LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheet.m; sourceTree = "<group>"; };
+		FD97AF8A1F59CBDA00A50B2B /* LCActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetCell.h; sourceTree = "<group>"; };
+		FD97AF8B1F59CBDA00A50B2B /* LCActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheetCell.m; sourceTree = "<group>"; };
+		FD97AF8C1F59CBDA00A50B2B /* LCActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetConfig.h; sourceTree = "<group>"; };
+		FD97AF8D1F59CBDA00A50B2B /* LCActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheetConfig.m; sourceTree = "<group>"; };
+		FD97AF8E1F59CBDA00A50B2B /* LCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheetViewController.h; sourceTree = "<group>"; };
+		FD97AF8F1F59CBDA00A50B2B /* LCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCActionSheetViewController.m; sourceTree = "<group>"; };
+		FD97AF901F59CBDA00A50B2B /* UIImage+LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LCActionSheet.h"; sourceTree = "<group>"; };
+		FD97AF911F59CBDA00A50B2B /* UIImage+LCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LCActionSheet.m"; sourceTree = "<group>"; };
+		FD97AF971F59CCF000A50B2B /* LXFPopResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFPopResultCell.h; sourceTree = "<group>"; };
+		FD97AF981F59CCF000A50B2B /* LXFPopResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFPopResultCell.m; sourceTree = "<group>"; };
+		FD97AF991F59CCF000A50B2B /* LXFPopResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFPopResultCell.xib; sourceTree = "<group>"; };
+		FD97AF9D1F59CD2600A50B2B /* LXFCalculateResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculateResultModel.h; sourceTree = "<group>"; };
+		FD97AF9E1F59CD2600A50B2B /* LXFCalculateResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculateResultModel.m; sourceTree = "<group>"; };
+		FD97AFA01F59CE1600A50B2B /* LXFPopResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFPopResultView.h; sourceTree = "<group>"; };
+		FD97AFA11F59CE1600A50B2B /* LXFPopResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFPopResultView.m; sourceTree = "<group>"; };
+		FD97AFA61F59CF9700A50B2B /* LXFCalculatorCalcBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalculatorCalcBtnView.h; sourceTree = "<group>"; };
+		FD97AFA71F59CF9700A50B2B /* LXFCalculatorCalcBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalculatorCalcBtnView.m; sourceTree = "<group>"; };
+		FD97AFA91F59CF9F00A50B2B /* LXFCalculatorCalcBtnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFCalculatorCalcBtnView.xib; sourceTree = "<group>"; };
+		FD97AFAB1F59D04700A50B2B /* LXFCalcSelectStrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalcSelectStrCell.h; sourceTree = "<group>"; };
+		FD97AFAC1F59D04700A50B2B /* LXFCalcSelectStrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalcSelectStrCell.m; sourceTree = "<group>"; };
+		FD97AFAD1F59D04700A50B2B /* LXFCalcSelectStrCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFCalcSelectStrCell.xib; sourceTree = "<group>"; };
+		FD97AFB01F59D0C100A50B2B /* LXFCalcInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFCalcInputCell.h; sourceTree = "<group>"; };
+		FD97AFB11F59D0C100A50B2B /* LXFCalcInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFCalcInputCell.m; sourceTree = "<group>"; };
+		FD97AFB21F59D0C100A50B2B /* LXFCalcInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFCalcInputCell.xib; sourceTree = "<group>"; };
+		FD97AFB61F59D14700A50B2B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FD97AFB71F59D14700A50B2B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FD97AFB81F59D14700A50B2B /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FD97AFB91F59D14700A50B2B /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FD97AFBA1F59D14700A50B2B /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FD97AFBB1F59D14700A50B2B /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FD97AFBC1F59D14700A50B2B /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FD97AFBD1F59D14700A50B2B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FD97AFBE1F59D14700A50B2B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FD97AFBF1F59D14700A50B2B /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FD97AFC01F59D14700A50B2B /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FD97AFC11F59D14700A50B2B /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FD97AFC21F59D14700A50B2B /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FD97AFC31F59D14700A50B2B /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FD97AFC41F59D14700A50B2B /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FD97AFC51F59D14700A50B2B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FD97AFC61F59D14700A50B2B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FD97AFC71F59D14700A50B2B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FD97AFC81F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FD97AFC91F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FD97AFCA1F59D14700A50B2B /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FD97AFCB1F59D14700A50B2B /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FD97AFCC1F59D14700A50B2B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FD97AFCD1F59D14700A50B2B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FD97AFCE1F59D14700A50B2B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FD97AFDA1F59D1B300A50B2B /* NSArray+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LXF.h"; sourceTree = "<group>"; };
+		FD97AFDB1F59D1B300A50B2B /* NSArray+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LXF.m"; sourceTree = "<group>"; };
+		FD97AFDD1F59D23100A50B2B /* UITableViewCell+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LXF.h"; sourceTree = "<group>"; };
+		FD97AFDE1F59D23100A50B2B /* UITableViewCell+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LXF.m"; sourceTree = "<group>"; };
+		FD97AFE01F59D2D800A50B2B /* UIView+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXF.h"; sourceTree = "<group>"; };
+		FD97AFE11F59D2D800A50B2B /* UIView+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXF.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD97AF451F59C91100A50B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD97AF3F1F59C91100A50B2B = {
+			isa = PBXGroup;
+			children = (
+				FD97AF4A1F59C91100A50B2B /* LXFHouseLoanCalculatorDemo */,
+				FD97AF491F59C91100A50B2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD97AF491F59C91100A50B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF481F59C91100A50B2B /* LXFHouseLoanCalculatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD97AF4A1F59C91100A50B2B /* LXFHouseLoanCalculatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF631F59C92A00A50B2B /* LXFHouseLoanCalculator */,
+				FD97AF621F59C92A00A50B2B /* Classes */,
+				FD97AF4E1F59C91100A50B2B /* AppDelegate.h */,
+				FD97AF4F1F59C91100A50B2B /* AppDelegate.m */,
+				FD97AF511F59C91100A50B2B /* ViewController.h */,
+				FD97AF521F59C91100A50B2B /* ViewController.m */,
+				FD97AF541F59C91100A50B2B /* Main.storyboard */,
+				FD97AF571F59C91100A50B2B /* Assets.xcassets */,
+				FD97AF591F59C91100A50B2B /* LaunchScreen.storyboard */,
+				FD97AF5C1F59C91100A50B2B /* Info.plist */,
+				FD97AF4B1F59C91100A50B2B /* Supporting Files */,
+			);
+			path = LXFHouseLoanCalculatorDemo;
+			sourceTree = "<group>";
+		};
+		FD97AF4B1F59C91100A50B2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF4C1F59C91100A50B2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD97AF621F59C92A00A50B2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AFD91F59D18E00A50B2B /* Category */,
+				FD97AF701F59C9F300A50B2B /* Lib */,
+				FD97AF761F59CA3A00A50B2B /* Controller */,
+				FD97AF9C1F59CD1100A50B2B /* Model */,
+				FD97AF751F59CA1700A50B2B /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD97AF631F59C92A00A50B2B /* LXFHouseLoanCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF641F59C92A00A50B2B /* LXFHouseLoanCalculator.h */,
+				FD97AF651F59C92A00A50B2B /* LXFHouseLoanCalculator.m */,
+			);
+			path = LXFHouseLoanCalculator;
+			sourceTree = "<group>";
+		};
+		FD97AF701F59C9F300A50B2B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AFB51F59D14700A50B2B /* Masonry */,
+				FD97AF871F59CBDA00A50B2B /* LCActionSheet */,
+				FD97AF711F59C9F300A50B2B /* XLBasePageController */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		FD97AF711F59C9F300A50B2B /* XLBasePageController */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF721F59C9F300A50B2B /* XLBasePageController.h */,
+				FD97AF731F59C9F300A50B2B /* XLBasePageController.m */,
+			);
+			path = XLBasePageController;
+			sourceTree = "<group>";
+		};
+		FD97AF751F59CA1700A50B2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF971F59CCF000A50B2B /* LXFPopResultCell.h */,
+				FD97AF981F59CCF000A50B2B /* LXFPopResultCell.m */,
+				FD97AF991F59CCF000A50B2B /* LXFPopResultCell.xib */,
+				FD97AFA01F59CE1600A50B2B /* LXFPopResultView.h */,
+				FD97AFA11F59CE1600A50B2B /* LXFPopResultView.m */,
+				FD97AFA61F59CF9700A50B2B /* LXFCalculatorCalcBtnView.h */,
+				FD97AFA71F59CF9700A50B2B /* LXFCalculatorCalcBtnView.m */,
+				FD97AFA91F59CF9F00A50B2B /* LXFCalculatorCalcBtnView.xib */,
+				FD97AFAB1F59D04700A50B2B /* LXFCalcSelectStrCell.h */,
+				FD97AFAC1F59D04700A50B2B /* LXFCalcSelectStrCell.m */,
+				FD97AFAD1F59D04700A50B2B /* LXFCalcSelectStrCell.xib */,
+				FD97AFB01F59D0C100A50B2B /* LXFCalcInputCell.h */,
+				FD97AFB11F59D0C100A50B2B /* LXFCalcInputCell.m */,
+				FD97AFB21F59D0C100A50B2B /* LXFCalcInputCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD97AF761F59CA3A00A50B2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF771F59CA3A00A50B2B /* Base */,
+				FD97AF7B1F59CA5600A50B2B /* LXFCalculatorViewController.h */,
+				FD97AF7C1F59CA5600A50B2B /* LXFCalculatorViewController.m */,
+				FD97AF7E1F59CAED00A50B2B /* LXFCalculatorBusinessViewController.h */,
+				FD97AF7F1F59CAED00A50B2B /* LXFCalculatorBusinessViewController.m */,
+				FD97AF811F59CAFC00A50B2B /* LXFCalculatorFundViewController.h */,
+				FD97AF821F59CAFC00A50B2B /* LXFCalculatorFundViewController.m */,
+				FD97AF841F59CB0A00A50B2B /* LXFCalculatorGroupViewController.h */,
+				FD97AF851F59CB0A00A50B2B /* LXFCalculatorGroupViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD97AF771F59CA3A00A50B2B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF781F59CA3A00A50B2B /* LXFCalculatorBaseViewController.h */,
+				FD97AF791F59CA3A00A50B2B /* LXFCalculatorBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FD97AF871F59CBDA00A50B2B /* LCActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF881F59CBDA00A50B2B /* LCActionSheet.h */,
+				FD97AF891F59CBDA00A50B2B /* LCActionSheet.m */,
+				FD97AF8A1F59CBDA00A50B2B /* LCActionSheetCell.h */,
+				FD97AF8B1F59CBDA00A50B2B /* LCActionSheetCell.m */,
+				FD97AF8C1F59CBDA00A50B2B /* LCActionSheetConfig.h */,
+				FD97AF8D1F59CBDA00A50B2B /* LCActionSheetConfig.m */,
+				FD97AF8E1F59CBDA00A50B2B /* LCActionSheetViewController.h */,
+				FD97AF8F1F59CBDA00A50B2B /* LCActionSheetViewController.m */,
+				FD97AF901F59CBDA00A50B2B /* UIImage+LCActionSheet.h */,
+				FD97AF911F59CBDA00A50B2B /* UIImage+LCActionSheet.m */,
+			);
+			path = LCActionSheet;
+			sourceTree = "<group>";
+		};
+		FD97AF9C1F59CD1100A50B2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AF9D1F59CD2600A50B2B /* LXFCalculateResultModel.h */,
+				FD97AF9E1F59CD2600A50B2B /* LXFCalculateResultModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD97AFB51F59D14700A50B2B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AFB61F59D14700A50B2B /* MASCompositeConstraint.h */,
+				FD97AFB71F59D14700A50B2B /* MASCompositeConstraint.m */,
+				FD97AFB81F59D14700A50B2B /* MASConstraint+Private.h */,
+				FD97AFB91F59D14700A50B2B /* MASConstraint.h */,
+				FD97AFBA1F59D14700A50B2B /* MASConstraint.m */,
+				FD97AFBB1F59D14700A50B2B /* MASConstraintMaker.h */,
+				FD97AFBC1F59D14700A50B2B /* MASConstraintMaker.m */,
+				FD97AFBD1F59D14700A50B2B /* MASLayoutConstraint.h */,
+				FD97AFBE1F59D14700A50B2B /* MASLayoutConstraint.m */,
+				FD97AFBF1F59D14700A50B2B /* Masonry.h */,
+				FD97AFC01F59D14700A50B2B /* MASUtilities.h */,
+				FD97AFC11F59D14700A50B2B /* MASViewAttribute.h */,
+				FD97AFC21F59D14700A50B2B /* MASViewAttribute.m */,
+				FD97AFC31F59D14700A50B2B /* MASViewConstraint.h */,
+				FD97AFC41F59D14700A50B2B /* MASViewConstraint.m */,
+				FD97AFC51F59D14700A50B2B /* NSArray+MASAdditions.h */,
+				FD97AFC61F59D14700A50B2B /* NSArray+MASAdditions.m */,
+				FD97AFC71F59D14700A50B2B /* NSArray+MASShorthandAdditions.h */,
+				FD97AFC81F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FD97AFC91F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FD97AFCA1F59D14700A50B2B /* View+MASAdditions.h */,
+				FD97AFCB1F59D14700A50B2B /* View+MASAdditions.m */,
+				FD97AFCC1F59D14700A50B2B /* View+MASShorthandAdditions.h */,
+				FD97AFCD1F59D14700A50B2B /* ViewController+MASAdditions.h */,
+				FD97AFCE1F59D14700A50B2B /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		FD97AFD91F59D18E00A50B2B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FD97AFDA1F59D1B300A50B2B /* NSArray+LXF.h */,
+				FD97AFDB1F59D1B300A50B2B /* NSArray+LXF.m */,
+				FD97AFDD1F59D23100A50B2B /* UITableViewCell+LXF.h */,
+				FD97AFDE1F59D23100A50B2B /* UITableViewCell+LXF.m */,
+				FD97AFE01F59D2D800A50B2B /* UIView+LXF.h */,
+				FD97AFE11F59D2D800A50B2B /* UIView+LXF.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD97AF471F59C91100A50B2B /* LXFHouseLoanCalculatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD97AF5F1F59C91100A50B2B /* Build configuration list for PBXNativeTarget "LXFHouseLoanCalculatorDemo" */;
+			buildPhases = (
+				FD97AF441F59C91100A50B2B /* Sources */,
+				FD97AF451F59C91100A50B2B /* Frameworks */,
+				FD97AF461F59C91100A50B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFHouseLoanCalculatorDemo;
+			productName = LXFHouseLoanCalculatorDemo;
+			productReference = FD97AF481F59C91100A50B2B /* LXFHouseLoanCalculatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD97AF401F59C91100A50B2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LinXunFeng;
+				TargetAttributes = {
+					FD97AF471F59C91100A50B2B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD97AF431F59C91100A50B2B /* Build configuration list for PBXProject "LXFHouseLoanCalculatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD97AF3F1F59C91100A50B2B;
+			productRefGroup = FD97AF491F59C91100A50B2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD97AF471F59C91100A50B2B /* LXFHouseLoanCalculatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD97AF461F59C91100A50B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD97AFAA1F59CF9F00A50B2B /* LXFCalculatorCalcBtnView.xib in Resources */,
+				FD97AFB41F59D0C100A50B2B /* LXFCalcInputCell.xib in Resources */,
+				FD97AF5B1F59C91100A50B2B /* LaunchScreen.storyboard in Resources */,
+				FD97AF9B1F59CCF000A50B2B /* LXFPopResultCell.xib in Resources */,
+				FD97AF581F59C91100A50B2B /* Assets.xcassets in Resources */,
+				FD97AF561F59C91100A50B2B /* Main.storyboard in Resources */,
+				FD97AFAF1F59D04700A50B2B /* LXFCalcSelectStrCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD97AF441F59C91100A50B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD97AFDF1F59D23100A50B2B /* UITableViewCell+LXF.m in Sources */,
+				FD97AFD51F59D14700A50B2B /* NSArray+MASAdditions.m in Sources */,
+				FD97AF961F59CBDA00A50B2B /* UIImage+LCActionSheet.m in Sources */,
+				FD97AF931F59CBDA00A50B2B /* LCActionSheetCell.m in Sources */,
+				FD97AFD61F59D14700A50B2B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FD97AFA21F59CE1600A50B2B /* LXFPopResultView.m in Sources */,
+				FD97AF831F59CAFC00A50B2B /* LXFCalculatorFundViewController.m in Sources */,
+				FD97AF921F59CBDA00A50B2B /* LCActionSheet.m in Sources */,
+				FD97AFD11F59D14700A50B2B /* MASConstraintMaker.m in Sources */,
+				FD97AFD71F59D14700A50B2B /* View+MASAdditions.m in Sources */,
+				FD97AF531F59C91100A50B2B /* ViewController.m in Sources */,
+				FD97AFD01F59D14700A50B2B /* MASConstraint.m in Sources */,
+				FD97AF9A1F59CCF000A50B2B /* LXFPopResultCell.m in Sources */,
+				FD97AFE21F59D2D800A50B2B /* UIView+LXF.m in Sources */,
+				FD97AFD41F59D14700A50B2B /* MASViewConstraint.m in Sources */,
+				FD97AF741F59C9F300A50B2B /* XLBasePageController.m in Sources */,
+				FD97AF7D1F59CA5600A50B2B /* LXFCalculatorViewController.m in Sources */,
+				FD97AF941F59CBDA00A50B2B /* LCActionSheetConfig.m in Sources */,
+				FD97AF951F59CBDA00A50B2B /* LCActionSheetViewController.m in Sources */,
+				FD97AFA81F59CF9700A50B2B /* LXFCalculatorCalcBtnView.m in Sources */,
+				FD97AF7A1F59CA3A00A50B2B /* LXFCalculatorBaseViewController.m in Sources */,
+				FD97AF661F59C92A00A50B2B /* LXFHouseLoanCalculator.m in Sources */,
+				FD97AFD81F59D14700A50B2B /* ViewController+MASAdditions.m in Sources */,
+				FD97AFB31F59D0C100A50B2B /* LXFCalcInputCell.m in Sources */,
+				FD97AFD21F59D14700A50B2B /* MASLayoutConstraint.m in Sources */,
+				FD97AF501F59C91100A50B2B /* AppDelegate.m in Sources */,
+				FD97AFCF1F59D14700A50B2B /* MASCompositeConstraint.m in Sources */,
+				FD97AFAE1F59D04700A50B2B /* LXFCalcSelectStrCell.m in Sources */,
+				FD97AF861F59CB0A00A50B2B /* LXFCalculatorGroupViewController.m in Sources */,
+				FD97AF4D1F59C91100A50B2B /* main.m in Sources */,
+				FD97AF801F59CAED00A50B2B /* LXFCalculatorBusinessViewController.m in Sources */,
+				FD97AFDC1F59D1B300A50B2B /* NSArray+LXF.m in Sources */,
+				FD97AF9F1F59CD2600A50B2B /* LXFCalculateResultModel.m in Sources */,
+				FD97AFD31F59D14700A50B2B /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD97AF541F59C91100A50B2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD97AF551F59C91100A50B2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD97AF591F59C91100A50B2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD97AF5A1F59C91100A50B2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD97AF5D1F59C91100A50B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD97AF5E1F59C91100A50B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD97AF601F59C91100A50B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXFHouseLoanCalculatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.LXFHouseLoanCalculatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD97AF611F59C91100A50B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXFHouseLoanCalculatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.LXFHouseLoanCalculatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD97AF431F59C91100A50B2B /* Build configuration list for PBXProject "LXFHouseLoanCalculatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD97AF5D1F59C91100A50B2B /* Debug */,
+				FD97AF5E1F59C91100A50B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD97AF5F1F59C91100A50B2B /* Build configuration list for PBXNativeTarget "LXFHouseLoanCalculatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD97AF601F59C91100A50B2B /* Debug */,
+				FD97AF611F59C91100A50B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD97AF401F59C91100A50B2B /* Project object */;
+}
